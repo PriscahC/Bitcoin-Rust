@@ -15,3 +15,33 @@ fn main() {
     // print the first element of the vector using index notation vec[0]
     println!("first element:{}", vec[0]);
 }
+
+// Enums
+// enum Point {
+//     Nothing,
+//     TuplePoint(i32, i32),
+//     StructPoint {
+//         x: i32,
+//         y: i32
+//     }
+// }
+
+// fn get_point(n: u8) -> Point {
+//     match n {
+//         1 => Point::TuplePoint(-1, 1),
+//         2 => Point::StructPoint {
+//             x: -1,
+//             y: 1
+//         },
+//         _ => Point::Nothing
+//     }
+// }
+
+// fn main() {
+//     let p = get_point(2);
+//     match p {
+//         Point::Nothing => println!("no point"),
+//         Point::TuplePoint(resX, resY) => println!("x is {} and y is {}", x, y),
+//         Point::StructPoint(resX, resY) => println!("x is {} and y is {}", x, y),
+//     }
+// }
